@@ -1,0 +1,124 @@
+
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+
+/*Variables*/
+:root{
+    --font-family: 'Mulish', sans-serif;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 0px) {
+.container{
+    display: flex;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+}
+@media screen and (min-width: 769px) {
+.container{
+    display: flex;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+#contform{
+    width: 75% !important;
+}
+}
+@media screen and (min-width: 993px) {
+    .container{
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+        justify-content: start !important;
+        align-items: start !important;
+    }
+    #contform{
+        width: 50% !important;
+    }
+@media screen and (min-width: 1201px) {
+    .container{
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+        justify-content: start !important;
+        align-items: start !important;
+    }
+    #contform{
+        margin-left: 90px;
+        width: 50% !important;
+    }
+  }
+@media screen and (min-width: 1401px) {
+    .container{
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+        justify-content: start !important;
+        align-items: start !important;
+    }
+    #contform{
+        margin-left: 180px;
+        width: 50% !important;
+    }
+  }
+  
+
+/*Estructura*/
+*{
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+label{
+    color: #04146c !important;
+    font-size: 24px !important;
+}
+
+/*Clases*/
+.regular{
+    font-weight: 400;
+}
+.semibold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 700;
+}
+.ita{
+    font-style: italic;
+}
+/*ID'S*/
+#botonsb{
+    font-family: var(--font-family);
+    font-weight: 700 !important;
+    width: 150px !important;
+    height: 50px !important;
+    font-size: 24px !important;
+}
+#emailtxt{
+    font-family: var(--font-family);
+    font-style: italic !important;
+    color: #04146c !important;
+    font-size: 17.33px !important;
+}
+#formulario1{
+    font-family: var(--font-family) ;
+    border-color: #8a9af1 !important;
+}
+#contraseña{
+    font-family: var(--font-family) ;
+    border-color: #8a9af1 !important;
+}
+#chbox{
+    font-family: var(--font-family);
+    color: #04146c !important;
+    font-size: 24px !important;
+}

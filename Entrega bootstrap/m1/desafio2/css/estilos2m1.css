@@ -1,0 +1,233 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+/*Variables*/
+:root{
+    --font-family: 'Mulish', sans-serif;
+}
+
+@media screen and (min-width: 0px) {
+    #tttt{
+        font-size: 50px !important;
+        text-align: start;
+        margin-left: 55px;
+    }
+    #stt{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 200px;
+        width: 75%;
+        max-width: 450px;
+        margin-bottom: 30px; 
+        }
+    #sszz {
+        font-size: 1.2rem !important;
+        line-height: 0;
+    }
+    #ssxx{
+        line-height: 25px;
+        font-size: 0.9rem !important;
+    }
+    #crsl{
+        margin-top: 20px !important;
+    }
+  }
+  @media screen and (min-width: 577px) {
+    #tttt{
+        font-size: 50px !important;
+        padding-right: 90px;
+    }
+    #stt{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 300px;
+        width: 75%;
+        max-width: 450px;
+        margin-bottom: 30px; 
+        }
+    #sszz {
+        font-size: 1.2rem !important;
+        line-height: 0;
+    }
+    #ssxx{
+        line-height: 25px;
+        font-size: 0.9rem !important;
+    }
+    #crsl{
+        margin-top: 0px !important;
+    }
+  }
+  @media screen and (min-width: 769px) {
+    #tttt{
+        font-size: 70px !important;
+        margin-bottom: 30px;
+        margin-left: 70px;
+        width: 100%;
+    }
+    #stt{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 250px;
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 30px; 
+        }
+    #sszz {
+        font-size: 1.2rem !important;
+        line-height: 0;
+    }
+    #ssxx{
+        line-height: 25px;
+        font-size: 0.9rem !important;
+    }
+    #crsl{
+        margin-top: 0px !important;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    #tttt{
+        font-size: 80px !important;
+        margin-bottom: 30px;
+        margin-left: 80px;
+    }
+    #stt{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 250px;
+        width: 75%;
+        max-width: 350px;
+        margin-bottom: 30px; 
+        }
+    #sszz {
+        font-size: 1.2rem !important;
+        line-height: 0;
+    }
+    #ssxx{
+        line-height: 25px;
+        font-size: 0.9rem !important;
+    }
+    #crsl{
+        margin-top: 0px !important;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    #tttt{
+        font-size: 80px !important;
+        margin-bottom: 30px;
+        padding-left: 40px;
+    }
+    #stt{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 150px;
+        width: 75%;
+        max-width: 250px;
+        margin-bottom: 30px; 
+        }
+    #sszz {
+        font-size: 1.2rem !important;
+    }
+    #ssxx{
+        line-height: 25px;
+        font-size: 0.9rem !important;
+    }
+    #crsl{
+        margin-top: 0px !important;
+    }
+    #lnht{
+        font-size: 1.2rem !important;
+        line-break: normal;
+        height: 35px;
+    }
+    #contenedor2{
+        margin-right: 70px;
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    #tttt{
+        font-size: 80px !important;
+        margin-bottom: 30px;
+        padding-left: 40px;
+    }
+    #stt{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 170px;
+        width: 100%;
+        max-width: 270px;
+        }
+    #sszz {
+        font-size: 1.2rem !important;
+    }
+    #ssxx{
+        line-height: 25px;
+        font-size: 0.9rem !important;
+    }
+    #crsl{
+        margin-top: 0px !important;
+    }
+    #lnht{
+        font-size: 1.2rem !important;
+        line-break: normal;
+        height: 35px;
+    }
+    #contenedor2{
+        margin-right: 50px;
+    }
+  }
+
+/*Estructura*/
+*{
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+h1{
+    font-size: 90.66px !important;
+    color: #0a2ff1 !important;
+}
+h2{
+    font-size: 1.5rem !important;
+    color: white !important;
+    text-align: center;
+}
+p{
+    font-size: 1rem !important;
+    color: white;
+    text-align: center;
+}
+
+
+
+/*Clases*/
+.regular{
+    font-weight: 400;
+}
+.bold{
+    font-weight: 700;
+}
+.ttl{
+    margin-top: 50px;
+}
+.shdw{
+    box-shadow: 2px 2px 2px gray;
+}
+.textoZ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*ID'S*/
+#crsl{
+    margin-top: 50px;
+}
+
+

@@ -1,0 +1,98 @@
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+
+/*Variables*/
+:root{
+    --font-family: 'Mulish', sans-serif;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 769px) {
+    main{
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    section{
+        width: 40% !important;
+    }
+    h1{
+        font-size: 45px !important;
+        width: 90% !important;
+    }
+    p{
+     width: 100% !important;
+       font-size: 18px !important;
+    }
+    img{
+        width: 80% !important;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    main{
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin-top: 20px !important;
+    }
+    section{
+        width: 40% !important;
+        margin-bottom: 30px;
+    }
+    h1{
+        font-size: 45px !important;
+        width: 90% !important;
+    }
+    p{
+     width: 100% !important;
+       font-size: 18px !important;
+    }
+    img{
+        width: 100% !important;
+    }
+  }
+
+/*Estructura*/
+*{
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-bottom: 50px;
+}
+section{
+    width: 40%;   
+}
+main{
+    margin-top: 50px;
+}
+h1{
+    width: 90%;
+    color:  #04146c;
+    font-size: 49.33px;
+}
+p{
+    width: 90%;
+    color: #04146c;
+   font-size: 24px;
+}
+/*Clases*/
+.regular{
+    font-weight: 400;
+}
+.bold{
+    font-weight: 700;
+}
+
+/*ID'S*/
