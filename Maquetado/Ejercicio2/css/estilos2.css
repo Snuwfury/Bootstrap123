@@ -1,0 +1,63 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');/*Variables*/
+:root{
+    --font-family:  'Dongle', sans-serif;
+}
+
+/*Estructura*/
+*{
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+}
+main{
+    margin-top: 50px;
+}
+
+/*Clases*/
+.orange{
+background-color: orange;
+animation: izqtodere 1s ease 0s forwards;
+}
+.golden{
+    background-color: palegoldenrod;
+    animation: izqtodere 1s ease 1s forwards;
+}
+.pink{
+background-color: pink;
+animation: izqtodere 1s ease 2s forwards;
+}
+.bold{
+    font-weight: 700;
+}
+.regular{
+    font-weight: 400;
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+  .textbox {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    left: 0; 
+    right: auto;
+  }
+
+/*Animación*/
+@keyframes izqtodere {
+    0% { left: 0; }
+    100% { left: 50%; }
+  }
